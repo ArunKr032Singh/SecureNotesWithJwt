@@ -10,6 +10,8 @@ package com.nontech.SecurityWithJwt.repositotry;
 import com.nontech.SecurityWithJwt.models.Note;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface NotesRepo extends JpaRepository<Note,Long> {
+import java.util.List;
 
+public interface NotesRepo extends JpaRepository<Note,Long> {
+    List<Note> findByOwnerUserName(String ownerUserName);
 }
