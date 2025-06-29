@@ -1,4 +1,4 @@
-package com.nontech.SecurityWithJwt.security;
+package com.nontech.SecurityWithJwt.security.request;
 
 import java.util.Set;
 
@@ -23,7 +23,7 @@ public class SignupRequest {
     private Set<String> role;
 
     @NotBlank
-    @Size(min = 6, max = 40,message = "Password must be at least 6 digits")
+    @Size(min = 6, max = 40)
     private String password;
 }
 

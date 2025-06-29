@@ -1,4 +1,4 @@
-package com.nontech.SecurityWithJwt.security;
+package com.nontech.SecurityWithJwt.security.response;
 
 import java.util.List;
 

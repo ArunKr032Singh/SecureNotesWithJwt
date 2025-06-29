@@ -1,4 +1,4 @@
-package com.nontech.SecurityWithJwt.security;
+package com.nontech.SecurityWithJwt.security.request;
 
 import lombok.Getter;
 import lombok.Setter;
