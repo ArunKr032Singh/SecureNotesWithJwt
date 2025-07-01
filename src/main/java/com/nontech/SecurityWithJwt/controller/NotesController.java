@@ -51,4 +51,5 @@ public class NotesController {
         String username = userDetails.getUsername();
         notesService.deleteNotesForUser(noteId,username);
     }
+
 }
